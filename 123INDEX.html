@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="1000 EXAMEN STAR/estilos1.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="1000 EXAMEN STAR/pagina1.html">Página 1</a></li>
+            <li><a href="1000 EXAMEN STAR/pagina2.html">Página 2</a></li>
+            <li><a href="1000 EXAMEN STAR/pagina3.html">Página 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Slider de imágenes -->
+        <div class="image-slider">
+            <img id="slider-img" src="1000 EXAMEN STAR/IMAGENES/1.jpg" alt="Imagen 1">
+        </div>
+
+        <!-- Reproductor de música -->
+        <div class="player">
+            <h2 id="song-title">Canción 1</h2>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="1000 EXAMEN STAR/musica/1.mp3" type="audio/mp3">
+                Tu navegador no soporta audio.
+            </audio>
+
+            <div class="controls">
+                <button id="prev-btn">⏮️</button>
+                <button id="play-pause-btn">▶️</button>
+                <button id="next-btn">⏭️</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="1000 EXAMEN STAR/script.js"></script>
+</body>
+</html>
